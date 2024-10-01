@@ -1,0 +1,5 @@
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.csproj.AssemblyReference.cache
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.frmCalculadora.resources
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.Properties.Resources.resources
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.csproj.GenerateResource.cache
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.csproj.CoreCompileInputs.cache
