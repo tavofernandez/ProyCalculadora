@@ -63,6 +63,16 @@ namespace ProyCalculadora.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap circulorojo {
+            get {
+                object obj = ResourceManager.GetObject("circulorojo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap smartphone {
             get {
                 object obj = ResourceManager.GetObject("smartphone", resourceCulture);
