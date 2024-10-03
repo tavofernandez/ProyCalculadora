@@ -40,7 +40,7 @@ namespace ProyCalculadora
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -68,7 +68,7 @@ namespace ProyCalculadora
             this.panel2.Controls.Add(this.button9);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.flowLayoutPanel3);
-            this.panel2.Controls.Add(this.flowLayoutPanel2);
+            this.panel2.Controls.Add(this.panelnumerico);
             this.panel2.Controls.Add(this.flowLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(154, 0);
@@ -200,12 +200,12 @@ namespace ProyCalculadora
             this.button8.Text = "=";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel2
+            // panelnumerico
             // 
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(197, 303);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(200, 244);
-            this.flowLayoutPanel2.TabIndex = 1;
+            this.panelnumerico.Location = new System.Drawing.Point(197, 303);
+            this.panelnumerico.Name = "panelnumerico";
+            this.panelnumerico.Size = new System.Drawing.Size(200, 244);
+            this.panelnumerico.TabIndex = 1;
             // 
             // flowLayoutPanel1
             // 
@@ -282,6 +282,7 @@ namespace ProyCalculadora
             this.Controls.Add(this.panel1);
             this.Name = "frmCalculadora";
             this.Text = "frmCalculadora";
+            this.Load += new System.EventHandler(this.frmCalculadora_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
@@ -295,7 +296,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel panelnumerico;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
