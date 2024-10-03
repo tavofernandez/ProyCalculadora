@@ -3,3 +3,7 @@ C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.frmCalculad
 C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.Properties.Resources.resources
 C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.csproj.GenerateResource.cache
 C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\TAVO\source\repos\ProyCalculadora\bin\Debug\ProyCalculadora.exe
+C:\Users\TAVO\source\repos\ProyCalculadora\bin\Debug\ProyCalculadora.pdb
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.exe
+C:\Users\TAVO\source\repos\ProyCalculadora\obj\Debug\ProyCalculadora.pdb
