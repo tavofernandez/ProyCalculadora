@@ -221,10 +221,13 @@ namespace ProyCalculadora
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(291, 207);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(291, 192);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
+            this.textBox1.Size = new System.Drawing.Size(176, 38);
             this.textBox1.TabIndex = 3;
+            this.textBox1.Text = "0";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmCalculadora
             // 
