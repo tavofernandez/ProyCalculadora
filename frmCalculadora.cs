@@ -23,7 +23,7 @@ namespace ProyCalculadora
 
         private void frmCalculadora_Load(object sender, EventArgs e)
         {
-
+            Dibujartecladonumerico();
         }
 
         private void Dibujartecladonumerico()

@@ -31,6 +31,7 @@ namespace ProyCalculadora
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -45,7 +46,6 @@ namespace ProyCalculadora
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -75,6 +75,17 @@ namespace ProyCalculadora
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(667, 599);
             this.panel2.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(200, 143);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(267, 23);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "0";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label1
             // 
@@ -122,7 +133,7 @@ namespace ProyCalculadora
             this.flowLayoutPanel3.Controls.Add(this.button8);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(404, 233);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(63, 314);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(63, 312);
             this.flowLayoutPanel3.TabIndex = 2;
             // 
             // button4
@@ -202,7 +213,7 @@ namespace ProyCalculadora
             // 
             // panelnumerico
             // 
-            this.panelnumerico.Location = new System.Drawing.Point(197, 303);
+            this.panelnumerico.Location = new System.Drawing.Point(197, 294);
             this.panelnumerico.Name = "panelnumerico";
             this.panelnumerico.Size = new System.Drawing.Size(200, 244);
             this.panelnumerico.TabIndex = 1;
@@ -214,7 +225,7 @@ namespace ProyCalculadora
             this.flowLayoutPanel1.Controls.Add(this.button3);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(197, 233);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 64);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 65);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // button1
@@ -261,17 +272,6 @@ namespace ProyCalculadora
             this.button3.TabIndex = 2;
             this.button3.Text = "OFF";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(200, 143);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 23);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // frmCalculadora
             // 
