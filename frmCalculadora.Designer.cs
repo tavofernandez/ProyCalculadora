@@ -34,7 +34,7 @@ namespace ProyCalculadora
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtpantalla = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -66,7 +66,7 @@ namespace ProyCalculadora
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button9);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtpantalla);
             this.panel2.Controls.Add(this.flowLayoutPanel3);
             this.panel2.Controls.Add(this.panelnumerico);
             this.panel2.Controls.Add(this.flowLayoutPanel1);
@@ -113,16 +113,16 @@ namespace ProyCalculadora
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // textBox1
+            // txtpantalla
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(261, 192);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(206, 38);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "0";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtpantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpantalla.Location = new System.Drawing.Point(261, 192);
+            this.txtpantalla.Name = "txtpantalla";
+            this.txtpantalla.ReadOnly = true;
+            this.txtpantalla.Size = new System.Drawing.Size(206, 38);
+            this.txtpantalla.TabIndex = 3;
+            this.txtpantalla.Text = "0";
+            this.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // flowLayoutPanel3
             // 
@@ -323,7 +323,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
