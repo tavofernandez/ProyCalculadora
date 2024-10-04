@@ -31,8 +31,8 @@ namespace ProyCalculadora
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblnum1 = new System.Windows.Forms.Label();
+            this.lbloperacion = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.txtpantalla = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
@@ -63,8 +63,8 @@ namespace ProyCalculadora
             // 
             this.panel2.BackgroundImage = global::ProyCalculadora.Properties.Resources.smartphone;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.lblnum1);
+            this.panel2.Controls.Add(this.lbloperacion);
             this.panel2.Controls.Add(this.button9);
             this.panel2.Controls.Add(this.txtpantalla);
             this.panel2.Controls.Add(this.flowLayoutPanel3);
@@ -76,27 +76,27 @@ namespace ProyCalculadora
             this.panel2.Size = new System.Drawing.Size(667, 599);
             this.panel2.TabIndex = 1;
             // 
-            // label2
+            // lblnum1
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(200, 143);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 23);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "0";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblnum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnum1.ForeColor = System.Drawing.Color.Black;
+            this.lblnum1.Location = new System.Drawing.Point(200, 143);
+            this.lblnum1.Name = "lblnum1";
+            this.lblnum1.Size = new System.Drawing.Size(267, 23);
+            this.lblnum1.TabIndex = 5;
+            this.lblnum1.Text = "0";
+            this.lblnum1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label1
+            // lbloperacion
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(367, 166);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "0";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbloperacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbloperacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lbloperacion.Location = new System.Drawing.Point(367, 166);
+            this.lbloperacion.Name = "lbloperacion";
+            this.lbloperacion.Size = new System.Drawing.Size(100, 23);
+            this.lbloperacion.TabIndex = 5;
+            this.lbloperacion.Text = "0";
+            this.lbloperacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // button9
             // 
@@ -325,7 +325,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbloperacion;
+        private System.Windows.Forms.Label lblnum1;
     }
 }
