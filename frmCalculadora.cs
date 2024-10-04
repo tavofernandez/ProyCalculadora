@@ -45,8 +45,10 @@ namespace ProyCalculadora
                 btnnumero.BackgroundImage = Properties.Resources.circuloazul;
                 btnnumero.BackgroundImageLayout = ImageLayout.Stretch;
                 btnnumero.FlatAppearance.BorderSize = 0;
+                //Al pasar el mouse
                 btnnumero.FlatAppearance.MouseDownBackColor = Color.Transparent;
-
+                //al hacer click
+                btnnumero.FlatAppearance.MouseOverBackColor = Color.Transparent;
 
                 //agregamos los controles
                 panelnumerico.Controls.Add(btnnumero);
