@@ -52,8 +52,25 @@ namespace ProyCalculadora
 
                 //agregamos los controles
                 panelnumerico.Controls.Add(btnnumero);
+
+                //damos funcionalidad a los botones que hemos generado por codigo
+                btnnumero.Click += Btnnumero_Click;
+
+            }           
+
+        }
+
+        //metodo para los botones
+        private void Btnnumero_Click(object sender, EventArgs e)
+        {
+            string numerostring = ((Button)sender).Text;            
+
+            if (txtpantalla.Text == "0")
+            {
+                txtpantalla.Clear();
             }
 
+            txtpantalla.Text += numerostring;
         }
     }
 }
