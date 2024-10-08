@@ -152,6 +152,7 @@ namespace ProyCalculadora
             this.btndivision.TabIndex = 3;
             this.btndivision.Text = "/";
             this.btndivision.UseVisualStyleBackColor = true;
+            this.btndivision.Click += new System.EventHandler(this.btndivision_Click);
             // 
             // button5
             // 

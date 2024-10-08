@@ -51,6 +51,12 @@ namespace ProyCalculadora
             Dibujartecladonumerico();
         }
 
+        private void btndivision_Click(object sender, EventArgs e)
+        {
+            operacion = btndivision.Text;
+            DefinirOperacion();
+        }
+
         private void Dibujartecladonumerico()
         {
             char[] numeros;
