@@ -20,6 +20,20 @@ namespace ProyCalculadora
         string operacion;
         double num1, num2, resultado;
 
+
+        private void DefinirOperacion()
+        {
+            AsignarDatos();
+
+            if (num2 > 0)
+            {
+                lblnum1.Text = txtpantalla.Text;
+                lbloperacion.Text = operacion;
+                txtpantalla.Text = "0";
+            }
+
+        }
+
         private void AsignarDatos()
         {
             num1 = Convert.ToDouble(lblnum1.Text);
