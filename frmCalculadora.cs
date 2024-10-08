@@ -16,6 +16,10 @@ namespace ProyCalculadora
             InitializeComponent();
         }
 
+        //declaramos las varibles
+        string operacion;
+        double num1, num2, resultado;
+
         private void button9_Click(object sender, EventArgs e)
         {
 
