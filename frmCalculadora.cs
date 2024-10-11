@@ -74,12 +74,22 @@ namespace ProyCalculadora
             }
         }
 
+        private void Limpiar()
+        {
+            reiniciar = true;
+
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+
+        }
+
         private void Dividir()
         {
             resultado = num1 / num2;
             txtpantalla.Text = resultado.ToString();
-            lbloperacion.Text = "0";
-            lblnum1.Text = "0";
+
+            Limpiar();
+            
 
         }
 
