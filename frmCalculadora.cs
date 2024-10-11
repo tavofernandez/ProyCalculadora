@@ -59,7 +59,7 @@ namespace ProyCalculadora
 
         private void btnigual_Click(object sender, EventArgs e)
         {
-            
+            Calcular();
         }
 
         private void Calcular()
