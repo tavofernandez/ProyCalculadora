@@ -40,7 +40,7 @@ namespace ProyCalculadora
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnigual = new System.Windows.Forms.Button();
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
@@ -130,7 +130,7 @@ namespace ProyCalculadora
             this.flowLayoutPanel3.Controls.Add(this.button5);
             this.flowLayoutPanel3.Controls.Add(this.button6);
             this.flowLayoutPanel3.Controls.Add(this.button7);
-            this.flowLayoutPanel3.Controls.Add(this.button8);
+            this.flowLayoutPanel3.Controls.Add(this.btnigual);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(404, 233);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(63, 312);
@@ -205,22 +205,22 @@ namespace ProyCalculadora
             this.button7.Text = "+";
             this.button7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnigual
             // 
-            this.button8.BackgroundImage = global::ProyCalculadora.Properties.Resources.circuloverde;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(3, 247);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(55, 55);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "=";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnigual.BackgroundImage = global::ProyCalculadora.Properties.Resources.circuloverde;
+            this.btnigual.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnigual.FlatAppearance.BorderSize = 0;
+            this.btnigual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnigual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.ForeColor = System.Drawing.Color.White;
+            this.btnigual.Location = new System.Drawing.Point(3, 247);
+            this.btnigual.Name = "btnigual";
+            this.btnigual.Size = new System.Drawing.Size(55, 55);
+            this.btnigual.TabIndex = 7;
+            this.btnigual.Text = "=";
+            this.btnigual.UseVisualStyleBackColor = true;
             // 
             // panelnumerico
             // 
@@ -323,7 +323,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label lbloperacion;
