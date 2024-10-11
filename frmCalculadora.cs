@@ -129,9 +129,21 @@ namespace ProyCalculadora
 
         }
 
+        private void ReiniciarProcesos()
+        {
+            if (reiniciar == true)
+            {
+                txtpantalla.Text = "0";
+                reiniciar = false;
+            }
+
+        }
+
         //metodo para los botones
         private void Btnnumero_Click(object sender, EventArgs e)
         {
+            
+
             string numerostring = ((Button)sender).Text;            
 
             if (txtpantalla.Text == "0")
