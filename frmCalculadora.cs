@@ -20,6 +20,8 @@ namespace ProyCalculadora
         string operacion;
         double num1, num2, resultado;
 
+        bool reiniciar = false;
+
 
         private void DefinirOperacion()
         {
