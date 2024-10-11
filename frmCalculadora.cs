@@ -59,10 +59,18 @@ namespace ProyCalculadora
 
         private void btnigual_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        
+        private void Calcular()
+        {
+            AsignarDatos();
+            
+            if (lbloperacion.Text == btndivision.Text)
+            {
+                Dividir();
+            }
+        }
 
         private void Dividir()
         {
