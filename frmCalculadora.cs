@@ -16,7 +16,7 @@ namespace ProyCalculadora
             InitializeComponent();
         }
 
-        //declaramos las varibles
+        //declaramos las variables
         string operacion;
         double num1, num2, resultado;
 
@@ -56,6 +56,24 @@ namespace ProyCalculadora
             operacion = btndivision.Text;
             DefinirOperacion();
         }
+
+        private void btnigual_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void Dividir()
+        {
+            resultado = num1 / num2;
+            txtpantalla.Text = resultado.ToString();
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+
+        }
+
+
 
         private void Dibujartecladonumerico()
         {

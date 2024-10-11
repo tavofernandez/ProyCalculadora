@@ -221,6 +221,7 @@ namespace ProyCalculadora
             this.btnigual.TabIndex = 7;
             this.btnigual.Text = "=";
             this.btnigual.UseVisualStyleBackColor = true;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // panelnumerico
             // 
