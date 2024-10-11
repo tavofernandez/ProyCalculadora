@@ -142,7 +142,7 @@ namespace ProyCalculadora
         //metodo para los botones
         private void Btnnumero_Click(object sender, EventArgs e)
         {
-            
+            ReiniciarProcesos();
 
             string numerostring = ((Button)sender).Text;            
 
