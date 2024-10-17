@@ -204,6 +204,18 @@ namespace ProyCalculadora
             DefinirOperacion();
         }
 
+        private void btnborrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Borrar()
+        {
+            txtpantalla.Text = "0";
+            lbloperacion.Text = "0";
+            lblnum1.Text = "0";
+        }
+
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)
