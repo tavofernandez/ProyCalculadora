@@ -77,7 +77,11 @@ namespace ProyCalculadora
             {
                 Multiplicar();
             }
-            
+
+            if (lbloperacion.Text == btnresta.Text)
+            {
+                Resta();
+            }
         }
 
         private void Resta()
