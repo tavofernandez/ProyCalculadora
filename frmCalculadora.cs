@@ -72,7 +72,16 @@ namespace ProyCalculadora
             {
                 Dividir();
             }
+            
         }
+
+        private void Multiplicar()
+        {
+            resultado = num1 * num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+        }
+
 
         private void Limpiar()
         {
