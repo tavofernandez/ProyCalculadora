@@ -171,6 +171,8 @@ namespace ProyCalculadora
                 btnnumero.FlatStyle = FlatStyle.Flat;
                 btnnumero.ForeColor = Color.White;
                 btnnumero.BackColor = Color.Transparent;
+                //Modificamos la fuente
+                btnnumero.Font = new Font("Microsoft Sans Serif", 15F);
                 btnnumero.BackgroundImage = Properties.Resources.circuloazul;
                 btnnumero.BackgroundImageLayout = ImageLayout.Stretch;
                 btnnumero.FlatAppearance.BorderSize = 0;

@@ -61,6 +61,7 @@ namespace ProyCalculadora
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.BackgroundImage = global::ProyCalculadora.Properties.Resources.smartphone;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Controls.Add(this.lblnum1);
@@ -79,8 +80,8 @@ namespace ProyCalculadora
             // lblnum1
             // 
             this.lblnum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnum1.ForeColor = System.Drawing.Color.Black;
-            this.lblnum1.Location = new System.Drawing.Point(200, 143);
+            this.lblnum1.ForeColor = System.Drawing.Color.White;
+            this.lblnum1.Location = new System.Drawing.Point(200, 136);
             this.lblnum1.Name = "lblnum1";
             this.lblnum1.Size = new System.Drawing.Size(267, 23);
             this.lblnum1.TabIndex = 5;
@@ -92,7 +93,7 @@ namespace ProyCalculadora
             // 
             this.lbloperacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbloperacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbloperacion.Location = new System.Drawing.Point(367, 166);
+            this.lbloperacion.Location = new System.Drawing.Point(367, 159);
             this.lbloperacion.Name = "lbloperacion";
             this.lbloperacion.Size = new System.Drawing.Size(100, 23);
             this.lbloperacion.TabIndex = 5;
@@ -119,11 +120,12 @@ namespace ProyCalculadora
             // 
             // txtpantalla
             // 
-            this.txtpantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpantalla.Location = new System.Drawing.Point(261, 192);
+            this.txtpantalla.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtpantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpantalla.Location = new System.Drawing.Point(261, 187);
             this.txtpantalla.Name = "txtpantalla";
             this.txtpantalla.ReadOnly = true;
-            this.txtpantalla.Size = new System.Drawing.Size(206, 38);
+            this.txtpantalla.Size = new System.Drawing.Size(206, 41);
             this.txtpantalla.TabIndex = 3;
             this.txtpantalla.Text = "0";
             this.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -148,7 +150,7 @@ namespace ProyCalculadora
             this.btndivision.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btndivision.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btndivision.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btndivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btndivision.ForeColor = System.Drawing.Color.White;
             this.btndivision.Location = new System.Drawing.Point(3, 3);
             this.btndivision.Name = "btndivision";
@@ -166,7 +168,7 @@ namespace ProyCalculadora
             this.btnmultiplicacion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnmultiplicacion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnmultiplicacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnmultiplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmultiplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnmultiplicacion.ForeColor = System.Drawing.Color.White;
             this.btnmultiplicacion.Location = new System.Drawing.Point(3, 64);
             this.btnmultiplicacion.Name = "btnmultiplicacion";
@@ -184,7 +186,7 @@ namespace ProyCalculadora
             this.btnresta.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnresta.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnresta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnresta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnresta.ForeColor = System.Drawing.Color.White;
             this.btnresta.Location = new System.Drawing.Point(3, 125);
             this.btnresta.Name = "btnresta";
@@ -202,7 +204,7 @@ namespace ProyCalculadora
             this.btnsuma.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnsuma.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnsuma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsuma.ForeColor = System.Drawing.Color.White;
             this.btnsuma.Location = new System.Drawing.Point(3, 186);
             this.btnsuma.Name = "btnsuma";
@@ -220,7 +222,7 @@ namespace ProyCalculadora
             this.btnigual.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnigual.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnigual.ForeColor = System.Drawing.Color.White;
             this.btnigual.Location = new System.Drawing.Point(3, 247);
             this.btnigual.Name = "btnigual";
@@ -255,7 +257,7 @@ namespace ProyCalculadora
             this.btnborrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnborrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnborrar.ForeColor = System.Drawing.Color.White;
             this.btnborrar.Location = new System.Drawing.Point(3, 3);
             this.btnborrar.Name = "btnborrar";
@@ -273,7 +275,7 @@ namespace ProyCalculadora
             this.btnporcentaje.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnporcentaje.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnporcentaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnporcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnporcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnporcentaje.ForeColor = System.Drawing.Color.White;
             this.btnporcentaje.Location = new System.Drawing.Point(64, 3);
             this.btnporcentaje.Name = "btnporcentaje";
@@ -291,7 +293,7 @@ namespace ProyCalculadora
             this.btnoff.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnoff.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnoff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnoff.ForeColor = System.Drawing.Color.White;
             this.btnoff.Location = new System.Drawing.Point(125, 3);
             this.btnoff.Name = "btnoff";
