@@ -105,6 +105,7 @@ namespace ProyCalculadora
             // 
             this.btncopiar.BackgroundImage = global::ProyCalculadora.Properties.Resources.copiar;
             this.btncopiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncopiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncopiar.FlatAppearance.BorderSize = 0;
             this.btncopiar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btncopiar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
