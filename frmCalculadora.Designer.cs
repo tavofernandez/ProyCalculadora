@@ -170,6 +170,7 @@ namespace ProyCalculadora
             this.btnmultiplicacion.TabIndex = 4;
             this.btnmultiplicacion.Text = "x";
             this.btnmultiplicacion.UseVisualStyleBackColor = true;
+            this.btnmultiplicacion.Click += new System.EventHandler(this.btnmultiplicacion_Click);
             // 
             // button6
             // 

@@ -129,6 +129,12 @@ namespace ProyCalculadora
 
         }
 
+        private void btnmultiplicacion_Click(object sender, EventArgs e)
+        {
+            operacion = btnmultiplicacion.Text;
+            DefinirOperacion();
+        }
+
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)
