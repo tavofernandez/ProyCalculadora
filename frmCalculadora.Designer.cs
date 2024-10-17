@@ -39,7 +39,7 @@ namespace ProyCalculadora
             this.btndivision = new System.Windows.Forms.Button();
             this.btnmultiplicacion = new System.Windows.Forms.Button();
             this.btnresta = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnsuma = new System.Windows.Forms.Button();
             this.btnigual = new System.Windows.Forms.Button();
             this.panelnumerico = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -129,7 +129,7 @@ namespace ProyCalculadora
             this.flowLayoutPanel3.Controls.Add(this.btndivision);
             this.flowLayoutPanel3.Controls.Add(this.btnmultiplicacion);
             this.flowLayoutPanel3.Controls.Add(this.btnresta);
-            this.flowLayoutPanel3.Controls.Add(this.button7);
+            this.flowLayoutPanel3.Controls.Add(this.btnsuma);
             this.flowLayoutPanel3.Controls.Add(this.btnigual);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(404, 233);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
@@ -190,22 +190,23 @@ namespace ProyCalculadora
             this.btnresta.UseVisualStyleBackColor = true;
             this.btnresta.Click += new System.EventHandler(this.btnresta_Click);
             // 
-            // button7
+            // btnsuma
             // 
-            this.button7.BackgroundImage = global::ProyCalculadora.Properties.Resources.circuloverde;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(3, 186);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(55, 55);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "+";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnsuma.BackgroundImage = global::ProyCalculadora.Properties.Resources.circuloverde;
+            this.btnsuma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnsuma.FlatAppearance.BorderSize = 0;
+            this.btnsuma.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnsuma.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnsuma.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnsuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsuma.ForeColor = System.Drawing.Color.White;
+            this.btnsuma.Location = new System.Drawing.Point(3, 186);
+            this.btnsuma.Name = "btnsuma";
+            this.btnsuma.Size = new System.Drawing.Size(55, 55);
+            this.btnsuma.TabIndex = 6;
+            this.btnsuma.Text = "+";
+            this.btnsuma.UseVisualStyleBackColor = true;
+            this.btnsuma.Click += new System.EventHandler(this.btnsuma_Click);
             // 
             // btnigual
             // 
@@ -325,7 +326,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Button btndivision;
         private System.Windows.Forms.Button btnmultiplicacion;
         private System.Windows.Forms.Button btnresta;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnsuma;
         private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.TextBox txtpantalla;
         private System.Windows.Forms.Button button9;

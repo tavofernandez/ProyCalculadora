@@ -82,6 +82,18 @@ namespace ProyCalculadora
             {
                 Resta();
             }
+
+            if (lbloperacion.Text == btnsuma.Text)
+            {
+                Sumar();
+            }
+        }
+
+        private void Sumar()
+        {
+            resultado = num1 + num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
         }
 
         private void Resta()
@@ -164,6 +176,12 @@ namespace ProyCalculadora
         private void btnresta_Click(object sender, EventArgs e)
         {
             operacion = btnresta.Text;
+            DefinirOperacion();
+        }
+
+        private void btnsuma_Click(object sender, EventArgs e)
+        {
+            operacion = btnsuma.Text;
             DefinirOperacion();
         }
 
