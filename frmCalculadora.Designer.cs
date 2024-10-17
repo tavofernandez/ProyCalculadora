@@ -103,6 +103,8 @@ namespace ProyCalculadora
             this.btncopiar.BackgroundImage = global::ProyCalculadora.Properties.Resources.copiar;
             this.btncopiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btncopiar.FlatAppearance.BorderSize = 0;
+            this.btncopiar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btncopiar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btncopiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncopiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncopiar.ForeColor = System.Drawing.Color.White;
