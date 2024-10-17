@@ -206,7 +206,7 @@ namespace ProyCalculadora
 
         private void btnborrar_Click(object sender, EventArgs e)
         {
-
+            Borrar();
         }
 
         private void Borrar()
