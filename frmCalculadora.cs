@@ -80,6 +80,14 @@ namespace ProyCalculadora
             
         }
 
+        private void Resta()
+        {
+            resultado = num1 - num2;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+
+        }
+
         private void Multiplicar()
         {
             resultado = num1 * num2;
