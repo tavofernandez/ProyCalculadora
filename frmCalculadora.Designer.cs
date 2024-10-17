@@ -33,7 +33,7 @@ namespace ProyCalculadora
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblnum1 = new System.Windows.Forms.Label();
             this.lbloperacion = new System.Windows.Forms.Label();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btncopiar = new System.Windows.Forms.Button();
             this.txtpantalla = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.btndivision = new System.Windows.Forms.Button();
@@ -65,7 +65,7 @@ namespace ProyCalculadora
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel2.Controls.Add(this.lblnum1);
             this.panel2.Controls.Add(this.lbloperacion);
-            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.btncopiar);
             this.panel2.Controls.Add(this.txtpantalla);
             this.panel2.Controls.Add(this.flowLayoutPanel3);
             this.panel2.Controls.Add(this.panelnumerico);
@@ -98,20 +98,20 @@ namespace ProyCalculadora
             this.lbloperacion.Text = "0";
             this.lbloperacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // button9
+            // btncopiar
             // 
-            this.button9.BackgroundImage = global::ProyCalculadora.Properties.Resources.copiar;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(200, 190);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(40, 40);
-            this.button9.TabIndex = 4;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.btncopiar.BackgroundImage = global::ProyCalculadora.Properties.Resources.copiar;
+            this.btncopiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btncopiar.FlatAppearance.BorderSize = 0;
+            this.btncopiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btncopiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncopiar.ForeColor = System.Drawing.Color.White;
+            this.btncopiar.Location = new System.Drawing.Point(200, 190);
+            this.btncopiar.Name = "btncopiar";
+            this.btncopiar.Size = new System.Drawing.Size(40, 40);
+            this.btncopiar.TabIndex = 4;
+            this.btncopiar.UseVisualStyleBackColor = true;
+            this.btncopiar.Click += new System.EventHandler(this.btncopiar_Click);
             // 
             // txtpantalla
             // 
@@ -332,7 +332,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.Button btnsuma;
         private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.TextBox txtpantalla;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btncopiar;
         private System.Windows.Forms.Label lbloperacion;
         private System.Windows.Forms.Label lblnum1;
     }

@@ -45,7 +45,7 @@ namespace ProyCalculadora
 
         private void button9_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void frmCalculadora_Load(object sender, EventArgs e)
@@ -219,6 +219,12 @@ namespace ProyCalculadora
         private void btnoff_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btncopiar_Click(object sender, EventArgs e)
+        {
+            //se copiara todo lo que se escriba en text pantalla
+            Clipboard.SetText(txtpantalla.Text);
         }
 
         private void ReiniciarProcesos()
