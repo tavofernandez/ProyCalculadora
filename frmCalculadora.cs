@@ -185,6 +185,11 @@ namespace ProyCalculadora
             DefinirOperacion();
         }
 
+        private void btnporcentaje_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)
