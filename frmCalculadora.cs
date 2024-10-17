@@ -216,6 +216,11 @@ namespace ProyCalculadora
             lblnum1.Text = "0";
         }
 
+        private void btnoff_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)

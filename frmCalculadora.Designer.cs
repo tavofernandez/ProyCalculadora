@@ -45,7 +45,7 @@ namespace ProyCalculadora
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnborrar = new System.Windows.Forms.Button();
             this.btnporcentaje = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnoff = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -237,7 +237,7 @@ namespace ProyCalculadora
             // 
             this.flowLayoutPanel1.Controls.Add(this.btnborrar);
             this.flowLayoutPanel1.Controls.Add(this.btnporcentaje);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.btnoff);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(197, 233);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(200, 65);
@@ -279,22 +279,23 @@ namespace ProyCalculadora
             this.btnporcentaje.UseVisualStyleBackColor = true;
             this.btnporcentaje.Click += new System.EventHandler(this.btnporcentaje_Click);
             // 
-            // button3
+            // btnoff
             // 
-            this.button3.BackgroundImage = global::ProyCalculadora.Properties.Resources.circulorojo;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(125, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(55, 55);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "OFF";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnoff.BackgroundImage = global::ProyCalculadora.Properties.Resources.circulorojo;
+            this.btnoff.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnoff.FlatAppearance.BorderSize = 0;
+            this.btnoff.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnoff.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnoff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnoff.ForeColor = System.Drawing.Color.White;
+            this.btnoff.Location = new System.Drawing.Point(125, 3);
+            this.btnoff.Name = "btnoff";
+            this.btnoff.Size = new System.Drawing.Size(55, 55);
+            this.btnoff.TabIndex = 2;
+            this.btnoff.Text = "OFF";
+            this.btnoff.UseVisualStyleBackColor = true;
+            this.btnoff.Click += new System.EventHandler(this.btnoff_Click);
             // 
             // frmCalculadora
             // 
@@ -324,7 +325,7 @@ namespace ProyCalculadora
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnborrar;
         private System.Windows.Forms.Button btnporcentaje;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnoff;
         private System.Windows.Forms.Button btndivision;
         private System.Windows.Forms.Button btnmultiplicacion;
         private System.Windows.Forms.Button btnresta;
