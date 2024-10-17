@@ -21,6 +21,7 @@ namespace ProyCalculadora
         double num1, num2, resultado;
 
         bool reiniciar = false;
+        bool punto = true;
 
 
         private void DefinirOperacion()
