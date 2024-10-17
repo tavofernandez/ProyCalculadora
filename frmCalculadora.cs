@@ -149,6 +149,12 @@ namespace ProyCalculadora
             DefinirOperacion();
         }
 
+        private void btnresta_Click(object sender, EventArgs e)
+        {
+            operacion = btnresta.Text;
+            DefinirOperacion();
+        }
+
         private void ReiniciarProcesos()
         {
             if (reiniciar == true)
