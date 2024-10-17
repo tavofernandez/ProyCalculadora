@@ -251,14 +251,41 @@ namespace ProyCalculadora
         {
             ReiniciarProcesos();
 
-            string numerostring = ((Button)sender).Text;            
+            string numerostring = ((Button)sender).Text;
 
-            if (txtpantalla.Text == "0")
+            if (numerostring == ".")
             {
-                txtpantalla.Clear();
+                punto = true;
+
+                //cuando encuentra un punto, se desactiva
+                if (txtpantalla.Text.Contains("."))
+                {
+                    punto = false;
+                }
+
+                if (punto == true)
+                {
+                    //si es diferente de vacio que agregue el punto
+                    if (txtpantalla.Text != "")
+                    {
+                        txtpantalla.Text += ".";
+                    }
+
+                }
             }
 
-            txtpantalla.Text += numerostring;
+            else
+            {
+                if (txtpantalla.Text == "0")
+                {
+                    txtpantalla.Clear();
+                }
+
+                txtpantalla.Text += numerostring;
+
+            }
+
+           
         }
     }
 }
