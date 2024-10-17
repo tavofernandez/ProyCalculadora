@@ -87,6 +87,19 @@ namespace ProyCalculadora
             {
                 Sumar();
             }
+
+            if (lbloperacion.Text == btnporcentaje.Text)
+            {
+                Porcentaje(); 
+            }
+        }
+
+        private void Porcentaje()
+        {
+            resultado = num1 * num2 / 100;
+            txtpantalla.Text = resultado.ToString();
+            Limpiar();
+
         }
 
         private void Sumar()
@@ -187,7 +200,8 @@ namespace ProyCalculadora
 
         private void btnporcentaje_Click(object sender, EventArgs e)
         {
-
+            operacion = btnporcentaje.Text;
+            DefinirOperacion();
         }
 
         private void ReiniciarProcesos()
