@@ -79,9 +79,9 @@ namespace ProyCalculadora
             // 
             // lblnum1
             // 
-            this.lblnum1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnum1.Font = new System.Drawing.Font("Consolas", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblnum1.ForeColor = System.Drawing.Color.White;
-            this.lblnum1.Location = new System.Drawing.Point(200, 136);
+            this.lblnum1.Location = new System.Drawing.Point(203, 110);
             this.lblnum1.Name = "lblnum1";
             this.lblnum1.Size = new System.Drawing.Size(267, 23);
             this.lblnum1.TabIndex = 5;
@@ -91,9 +91,9 @@ namespace ProyCalculadora
             // 
             // lbloperacion
             // 
-            this.lbloperacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbloperacion.Font = new System.Drawing.Font("Consolas", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbloperacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.lbloperacion.Location = new System.Drawing.Point(367, 159);
+            this.lbloperacion.Location = new System.Drawing.Point(370, 140);
             this.lbloperacion.Name = "lbloperacion";
             this.lbloperacion.Size = new System.Drawing.Size(100, 23);
             this.lbloperacion.TabIndex = 5;
@@ -111,21 +111,23 @@ namespace ProyCalculadora
             this.btncopiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncopiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncopiar.ForeColor = System.Drawing.Color.White;
-            this.btncopiar.Location = new System.Drawing.Point(200, 190);
+            this.btncopiar.Location = new System.Drawing.Point(204, 187);
             this.btncopiar.Name = "btncopiar";
-            this.btncopiar.Size = new System.Drawing.Size(40, 40);
+            this.btncopiar.Size = new System.Drawing.Size(29, 31);
             this.btncopiar.TabIndex = 4;
             this.btncopiar.UseVisualStyleBackColor = true;
             this.btncopiar.Click += new System.EventHandler(this.btncopiar_Click);
             // 
             // txtpantalla
             // 
-            this.txtpantalla.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtpantalla.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpantalla.Location = new System.Drawing.Point(261, 187);
+            this.txtpantalla.BackColor = System.Drawing.Color.Black;
+            this.txtpantalla.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtpantalla.Font = new System.Drawing.Font("Consolas", 38F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpantalla.ForeColor = System.Drawing.Color.White;
+            this.txtpantalla.Location = new System.Drawing.Point(251, 172);
             this.txtpantalla.Name = "txtpantalla";
             this.txtpantalla.ReadOnly = true;
-            this.txtpantalla.Size = new System.Drawing.Size(206, 41);
+            this.txtpantalla.Size = new System.Drawing.Size(214, 60);
             this.txtpantalla.TabIndex = 3;
             this.txtpantalla.Text = "0";
             this.txtpantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -257,7 +259,7 @@ namespace ProyCalculadora
             this.btnborrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnborrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnborrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnborrar.ForeColor = System.Drawing.Color.White;
             this.btnborrar.Location = new System.Drawing.Point(3, 3);
             this.btnborrar.Name = "btnborrar";
@@ -293,7 +295,7 @@ namespace ProyCalculadora
             this.btnoff.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnoff.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnoff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnoff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnoff.ForeColor = System.Drawing.Color.White;
             this.btnoff.Location = new System.Drawing.Point(125, 3);
             this.btnoff.Name = "btnoff";
