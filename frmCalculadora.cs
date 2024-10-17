@@ -72,6 +72,11 @@ namespace ProyCalculadora
             {
                 Dividir();
             }
+
+            if (lbloperacion.Text == btnmultiplicacion.Text)
+            {
+                Multiplicar();
+            }
             
         }
 
