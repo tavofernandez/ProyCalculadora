@@ -86,6 +86,7 @@ namespace ProyCalculadora
             this.lblnum1.TabIndex = 5;
             this.lblnum1.Text = "0";
             this.lblnum1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblnum1.Visible = false;
             // 
             // lbloperacion
             // 
@@ -97,6 +98,7 @@ namespace ProyCalculadora
             this.lbloperacion.TabIndex = 5;
             this.lbloperacion.Text = "0";
             this.lbloperacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lbloperacion.Visible = false;
             // 
             // btncopiar
             // 

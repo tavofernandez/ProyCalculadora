@@ -32,6 +32,10 @@ namespace ProyCalculadora
                 lblnum1.Text = txtpantalla.Text;
                 lbloperacion.Text = operacion;
                 txtpantalla.Text = "0";
+
+                //se hace visible las operaciones
+                lblnum1.Visible = true;
+                lbloperacion.Visible = true;
             }
 
         }
@@ -131,6 +135,10 @@ namespace ProyCalculadora
 
             lbloperacion.Text = "0";
             lblnum1.Text = "0";
+
+            //que se oculten las operaciones
+            lbloperacion.Visible = false;
+            lblnum1.Visible = false;
 
         }
 
